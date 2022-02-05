@@ -3,6 +3,8 @@
 Under construction...
 
 ```python
+from moe.moe_limited_env import MOELimitedEnv, Action
+
 env = MOELimitedEnv(size=100)
 obs = env.reset()
 
